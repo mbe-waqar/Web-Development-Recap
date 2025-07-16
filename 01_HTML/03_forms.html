@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Registration Form</h3>
+    <form action="action.php">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <br><br>
+        <br>
+
+        <h4>Select Your Course:</h4>
+        <label for="101">
+            <input type="radio" id="101" name="course" value="HTML" > HTML
+        </label>
+        <br>
+        <label for="102">
+            <input type="radio" id="102" name="course" value="CSS"> CSS
+        </label>
+        <br>
+        <br>
+
+        <h4>Select your favorite programming language:</h4>
+
+        <label for="Python">
+            <input type="checkbox" id="Python" name="language" value="Python"> Python
+        </label>
+        <br>
+        <label for="C++">
+            <input type="checkbox" id="C++" name="language" value="C++"> C++    
+        </label>
+        <br>
+        <label for="JS">
+            <input type="checkbox" id="JS" name="language" value="JavaScript"> JavaScript   
+        </label>
+        <br>
+        <br>
+
+        Select Your City:
+        <label for="city">
+            <select name="city" id="city">
+                <option value="Dhaka">Dhaka</option>   
+                <option value="Chittagong">Chittagong</option>
+                <option value="Sylhet">Sylhet</option>
+                <option value="Rajshahi">Rajshahi</option>
+                <option value="Khulna">Khulna</option>
+            </select>
+        </label>
+        <br><br>
+
+        <label for="Feedback">
+            <textarea name="feedback" id="feedback" placeholder="Enter your feedback here" rows="4" cols="50"></textarea>
+        </label>
+        <br><br>    
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
