@@ -1,0 +1,41 @@
+#h1 {
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: lightgray;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+#h2 {
+    color: green;
+    font-size: 18px;
+    font-weight: normal;
+    background-color: lightyellow;
+    padding: 8px;
+    border: 1px solid gray;
+}
+
+#h3 {
+    color: red;
+    font-size: 16px;
+    font-weight: lighter;
+    background-color: lightcoral;
+    padding: 6px;
+    border: 1px dashed darkred;
+}
+#h4 {
+    color: purple;
+    font-size: 14px;
+    background-color: lavender;
+    padding: 4px;
+    border: 1px dotted darkviolet;
+}
+
+p {
+    color: black;
+    font-size: 12px;
+    background-color: white;
+    padding: 2px;
+    border: 1px solid lightgray;
+}
