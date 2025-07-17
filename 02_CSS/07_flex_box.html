@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Flex</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            height: 50vh;
+            align-items: center;
+            flex-direction: column;
+            flex-direction: column-reverse; /* Change this to column-reverse */
+            gap: 10px; /* Adds space between items */
+            background-color: #f0f0f0;
+            flex-wrap: wrap;
+
+        }
+        .item {
+            height: 30px;
+            width: 60px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 5px;
+            border: 2px solid black;
+            margin: 5px;
+            flex: grow 1; /* Allows items to grow equally */
+            
+        } 
+    </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+        </div>
+    </main>
+</body>
+</html>
