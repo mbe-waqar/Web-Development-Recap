@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mydiv {
+            color: blue;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            background-color: lightgray;
+            padding: 15px;
+            border: 3px solid black;
+            width: fit-content; /* Makes the div width fit its content */
+            margin: 20px auto; /* Centers the div horizontally */
+        }
+        #myid {
+            color: green;
+            font-size: 16px;
+            font-style: italic;
+            text-decoration: underline;
+            background-color: lightyellow;
+            padding: 10px;
+            border: 2px dashed red;
+            width: fit-content; /* Makes the span width fit its content */
+        }
+        /* child selector */
+        div > p {
+            color: purple;
+            font-size: 14px;
+            margin: 10px 0;
+            padding: 5px;
+            background-color: lightblue;
+            border: 1px solid darkblue;
+        }
+        /* Descendent selector */
+        div p {
+            color: darkgreen;
+            font-size: 12px;
+            margin: 5px 0;
+            padding: 3px;
+            background-color: lightcoral;
+            border: 1px solid darkred;
+        }
+
+        /* Universal selector */
+        * {
+            box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
+        }
+
+        /* pseudo selector */
+        .mydiv:hover {
+            background-color: lightblue; /* Changes background color on hover */
+            cursor: pointer; /* Changes cursor to pointer on hover */
+        }
+        a:visited {
+            color: rgb(5, 255, 5); /* Changes color of visited links */
+        }
+        a:link {
+            color: blue; /* Changes color of unvisited links */
+        }
+        a:active {
+            color: red; /* Changes color of active links */
+        }
+        a:hover {
+            background-color: yellow; /* Changes background color of links on hover */
+        }
+        p:first-child {
+            font-weight: bold; /* Makes the first paragraph inside a div bold */
+        }
+
+
+        /* Box Model in the CSS */
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .mybox {
+            background-color: lightgreen;
+            padding: 20px;
+            margin: 30px;
+            height: 10px;
+            box-sizing: border-box;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- class selector -->
+    <div class="mydiv">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, itaque!
+    </div>
+    <!-- id selector -->
+     <span id="myid" style="margin: 5%;">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi?
+     </span>
+
+     <!-- Child selcetor -->
+      <div class="child" style="margin: 34px;">
+        <p>This is a child element inside a div.</p>
+        <p>It inherits styles from the parent div.</p>
+      </div>
+
+      <a href="http://google.com" target="_blank">Go to Google</a>
+
+      <br>
+      <hr>
+
+      <div class="mybox">I'm a Box</div>
+
+</body>
+</html>
