@@ -1,3 +1,10 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
 #h1 {
     color: blue;
     font-weight: bold;
@@ -7,6 +14,7 @@
     border: 2px solid black;
 }
 
+/* 02_font_weight.html */
 #h2 {
     color: green;
     font-size: 18px;
@@ -38,4 +46,39 @@ p {
     background-color: white;
     padding: 2px;
     border: 1px solid lightgray;
+}
+
+/* 03_navbar.html */
+#Navbar {
+    height: 60px;
+    background-color: #333;
+    padding-top: 20px;
+}
+
+button {
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25%;
+}
+
+#logo {
+    float: left;
+    padding: 10px;
+    color: yellow;
+}
+
+a {
+    margin-right: 200px;
+    text-decoration: none;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 15%;
+    color: black;
 }
