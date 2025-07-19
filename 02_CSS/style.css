@@ -82,3 +82,21 @@ input[type="text"] {
     border-radius: 15%;
     color: black;
 }
+
+.loader {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px solid #758E4F; 
+    border-top: 20px solid #F6AE2D; 
+    animation: spin 3s ease-in 0s infinite normal;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
