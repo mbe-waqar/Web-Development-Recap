@@ -1,5 +1,7 @@
 # Web-Development-Recap
-# Rock Paper Scissors Game
+
+
+# 1-Rock Paper Scissors Game
 
 A simple interactive Rock-Paper-Scissors game built with HTML, CSS, and JavaScript. Play against the computer, see your scores update in real-time, and reset the game as needed.
 
@@ -32,6 +34,32 @@ A simple interactive Rock-Paper-Scissors game built with HTML, CSS, and JavaScri
 4. Use the **Reset** button to start fresh at any time.
 
 ---
+
+# 2-Tic Tac Toe Game
+A simple interactive Tic Tac Toe game built with HTML, CSS, and JavaScript. Play against a friend or basic computer AI, track your wins, and reset the board anytime.
+
+## Features
+
+- Two-player mode (Player X and Player O)
+- Optionally play against computer AI (if implemented)
+- Visual indication of the winner or a draw
+- Keeps track of the number of wins or draws
+- Reset button to restart the game
+
+## Demo
+![image-1](./TicTacToe_Game/images/image1.png)
+
+![image-2](./TicTacToe_Game/images/image2.png)
+
+![image-3](./TicTacToe_Game/images/image3.png)
+
+
+
+## How to Play
+1. Open the index.html file in your web browser.
+2. Players take turns clicking on empty squares to mark X or O.
+3. The game announces the winner or a draw once the game ends.
+4. Click the Reset button to start a new game.
 
 ## Setup
 
